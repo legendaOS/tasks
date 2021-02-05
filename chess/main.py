@@ -15,19 +15,20 @@ def knight(coord):
     ret.append([coord[0] - 2 , coord[1] + 1]) # вверх на 2 и направо на 1
 
     index = 0
-    index_to_pop = []
     while index < len(ret):
-        index_inside_elem_ret = 0
-        while index_inside_elem_ret < len(ret[index]):
-            if ret[index][index_inside_elem_ret] < 0:
-                index_to_pop.append(index)
-                print(index)
-            index_inside_elem_ret += 1
-        index  = index + 1
+        i_in = 0
+        while i_in < len(ret[index]):
 
-    index = 0
+            if ret[index][i_in] < 0:
+                ret.pop(index)
+                index -= 1
+                break
+            i_in += 1
+        index += 1
+
+
     
-
+   
     return ret
 
 
