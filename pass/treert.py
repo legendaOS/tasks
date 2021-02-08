@@ -1,12 +1,8 @@
-import nmbv
-
 def sdfjk():
-    return(nmbv.lkghioty())
+    return('sdfsdfsdfdfgdfg')
 
 def sdfhkjgh():
-    return(nmbv.sdfkjfhkgl())
+    return('fgvbsdfxcv')
 
 def jhfgjkdf():
-    return(nmbv.kjfggjk())
-
-def sdfhjg():
+    return('sdkgjhkjhrwer')

@@ -2,7 +2,7 @@ def dfggfd():
     print('Получено')
     return('jhfghj')
 
-def dfghghjd():
+def dfggfd():
     print('Получено')
     return('dfgjhgfgh')
 
