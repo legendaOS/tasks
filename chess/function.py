@@ -15,3 +15,7 @@ def summa(array):
 
 peremennaya = summa(a)
 print(peremennaya)
+
+a = input()
+print(a)
+

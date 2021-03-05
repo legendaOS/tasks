@@ -1,2 +1,2 @@
-python window.py
+python index.py
 pause
