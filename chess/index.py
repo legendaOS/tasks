@@ -44,5 +44,5 @@ def move(stroka, pole_list, numbers_list, letters_list):
 
 move('e2-e4', pole, numbers, letters)
 
-#render(pole, numbers, letters)
+render(pole, numbers, letters)
 
